@@ -35,7 +35,7 @@ Usage:
 
     root@kali:~#  ./sambaVer.py -h
     sambaVer.py version:  1.0
-    usage: sambaVer.py [-h] [-t TARGET] [-2x] [-D]
+    usage: sambaVer.py [-h] [-t TARGET] [-2x] [-D] [-s]
 
     optional arguments:
     -h, --help            show this help message and exit
