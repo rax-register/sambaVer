@@ -14,8 +14,8 @@ Description:
     Samba version, but sambaVer.py is for those of us who don't like to rely on Metasploit.
 
     This script uses smbclient to connect to a Samba server and generate the required network traffic.
-    It then reads the packet data (response) from the Samba server and searches for known versions of
-    Unix Samba servers, reporting the first match it finds.
+    It then reads the packet data (response) from the Samba server and searches for the known pattern
+    of Samba versions in the reply.
 
     If running the script on a non-Kali machine, you must have smbclient installed for it to function. 
         $ sudo apt install smbclient
